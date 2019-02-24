@@ -9,7 +9,7 @@ import Portfolio from "./Portfolio/Portfolio";
 const Router = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={App} />
+      <Route exact path="/" component={About} />
       <Route exact path="/about" component={About} />
       <Route exact path="/resume" component={Resume} />
       <Route exact path="/portfolio" component={Portfolio} />

@@ -13,8 +13,8 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 app.use(express.static("./client/build"));
 
 // create a GET route
-app.get('/*', (req, res) => {
-//   res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
-    res.sendFile(path.join(__dirname+'/client/public/index.html'));;
-});
+// app.get('/*', (req, res) => {
+// //   res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
+//     // res.sendFile(path.join(__dirname+'/client/public/index.html'));
+// });
 

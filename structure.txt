@@ -1,0 +1,31 @@
+
+
+About Me <==> Resume <==> Portfolio
+
+/about
+/resume
+/portfolio
+
+site function/flow:
+-everything is kind of broken in subsections, clicking or scrolling the screen automoves the next subsections
+-there will be three options acros the top of the screen, equally spaces, no background, just outlined words against the page
+-- "About Me"                   "Resume"                    "Portfolio"
+
+About Me:
+-when site launches, starts on "About Me"
+--picture of mee
+--description of kind of job I am pursuing (full stack web developer)
+--some infor about hobbies and such, include some info about interests and the band
+
+Resume:
+-page loads and there will be some information about my education history
+-scroll down a little and then there will be the languages and technologies I know
+-scroll down again to the bottom and there will be a full page Google Map with a pin at the three companes I've worked out
+--maybe there'll be a side bar list the three jobs
+---clicking any of the jobs from the list moves map center to that location
+---a dialog box will appear on screen displaying my description and work experience for each job
+
+Portfolio:
+-there will a menu along the side that shows a list of all projects on the page
+-an image of the project takes up the center of the screen, clikcing it takes you to the project
+--image of the project can be a gif made using screenify, plays a little loop of the project/site in action
