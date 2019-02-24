@@ -8,7 +8,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <p>App goes here</p>
       </div>
     );
   }
