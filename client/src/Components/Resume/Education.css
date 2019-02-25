@@ -1,0 +1,16 @@
+.line{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    width: 45%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.personalInfo{
+    margin: 40px;
+}
+
+.schools{
+    margin: 40px;
+}

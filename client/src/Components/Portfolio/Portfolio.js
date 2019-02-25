@@ -18,7 +18,7 @@ class Portfolio extends Component {
     return (
       <div>
         <NavBar />
-        <Parallax ref="parallax" scrolling={false} pages={3}>
+        <Parallax ref="parallax" pages={3}>
 
           <Parallax.Layer
             offset={0}

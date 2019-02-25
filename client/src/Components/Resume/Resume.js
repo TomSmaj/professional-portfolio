@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../Navbar/Navbar";
+import Education from "./Education";
+import Employment from "./Employment"
 import Parallax from "react-springy-parallax";
 
 class Resume extends Component {
@@ -18,14 +20,14 @@ class Resume extends Component {
     return (
       <div>
         <NavBar />
-        <Parallax ref="parallax" scrolling={false} pages={3}>
+        <Parallax ref="parallax" pages={3}>
 
           <Parallax.Layer
             offset={0}
             speed={0.5}
             onClick={() => this.refs.parallax.scrollTo(1)}
           >
-          <p>Resume 1</p>
+          <Education />
           </Parallax.Layer>
 
           <Parallax.Layer
@@ -33,7 +35,7 @@ class Resume extends Component {
             speed={0.5}
             onClick={() => this.refs.parallax.scrollTo(2)}
           >
-          <p>Resume 2</p>
+          <Employment />
           </Parallax.Layer>
 
           <Parallax.Layer
