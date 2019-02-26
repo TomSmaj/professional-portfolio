@@ -33,7 +33,6 @@ class Resume extends Component {
           <Parallax.Layer
             offset={1}
             speed={0.5}
-            onClick={() => this.refs.parallax.scrollTo(2)}
           >
           <Employment />
           </Parallax.Layer>
