@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^6.2.0",
     "google-map-react": "^1.1.2",
+    "google-maps-react": "^2.0.2",
     "install": "^0.12.2",
     "npm": "^6.8.0",
     "react": "^16.8.3",
