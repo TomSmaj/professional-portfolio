@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
+const style = {
+  width: '61.8%',
+  height: '100%'
+}
 
 export class GoogleMap extends Component {
   render() {
@@ -11,7 +15,8 @@ export class GoogleMap extends Component {
         initialCenter={{
           lat: 31.5493,
           lng: -97.1467
-        }}>
+        }}
+        style={style}>
         <Marker
           title={'Telus International'}
           name={'Telus'}

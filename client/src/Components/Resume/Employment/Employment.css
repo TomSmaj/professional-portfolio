@@ -1,0 +1,32 @@
+.employment{
+    width: 100%
+}
+
+.jobLinks{
+    position: relative;
+    width: 38.2%;
+    height: 100%;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.jobLink{
+    margin: 5px;
+    margin-bottom: 18px;
+    border-color: black;
+    border-style: solid;
+    /* border-radius: 12px; */
+    padding: 5px;
+}
+
+.jobLine{
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* border-radius: 8px; */
+}
+
+.googleMap{
+    width: 61.8%
+}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../Navbar/Navbar";
-import Education from "./Education";
-import Employment from "./Employment"
+import Education from "./Education/Education";
+import Employment from "./Employment/Employment"
 import Parallax from "react-springy-parallax";
 
 class Resume extends Component {
