@@ -41,12 +41,11 @@ class Employment extends Component {
                 </div>
                 <div className="jobLinks">
                     <BootstrapJobLink className="jobLink"
-                        jobTitle={Apogee.jobTitle}
-                        company={Apogee.company}
-                        dates={Apogee.dates}
-                        jobDescription={Apogee.jobDescription}
-                        targId="job3"
-                        // onClick={this.changeCenter(30.3867,-97.7098)}
+                        jobTitle={Telus.jobTitle}
+                        company={Telus.company}
+                        dates={Telus.dates}
+                        jobDescription={Telus.jobDescription}
+                        targId={"job1"}
                     />
                     <BootstrapJobLink className="jobLink"
                         jobTitle={TTNI.jobTitle}
@@ -56,14 +55,13 @@ class Employment extends Component {
                         targId="job2"
                     />
                     <BootstrapJobLink className="jobLink"
-                        jobTitle={Telus.jobTitle}
-                        company={Telus.company}
-                        dates={Telus.dates}
-                        jobDescription={Telus.jobDescription}
-                        targId={"job1"}
+                        jobTitle={Apogee.jobTitle}
+                        company={Apogee.company}
+                        dates={Apogee.dates}
+                        jobDescription={Apogee.jobDescription}
+                        targId="job3"
+                    // onClick={this.changeCenter(30.3867,-97.7098)}
                     />
-
-
                 </div>
             </div>
         );
