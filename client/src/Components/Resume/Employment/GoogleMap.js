@@ -7,15 +7,23 @@ const style = {
 }
 
 export class GoogleMap extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      center: {
+        lat: this.props.mapCenter.lat,
+        lng: this.props.mapCenter.lng
+      }
+    }
+  } 
+
   render() {
     return (
       <Map
         google={this.props.google}
         zoom={8}
-        initialCenter={{
-          lat: 31.5493,
-          lng: -97.1467
-        }}
+        initialCenter={this.state.center}
         style={style}>
         <Marker
           title={'Telus International'}
