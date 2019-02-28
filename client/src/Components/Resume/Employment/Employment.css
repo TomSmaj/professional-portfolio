@@ -12,10 +12,9 @@
 
 .jobLink{
     margin: 5px;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
     border-color: black;
     border-style: solid;
-    /* border-radius: 12px; */
     padding: 5px;
 }
 
@@ -24,7 +23,6 @@
     color: white;
     padding-left: 8px;
     padding-right: 8px;
-    /* border-radius: 8px; */
 }
 
 .googleMap{

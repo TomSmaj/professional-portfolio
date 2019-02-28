@@ -25,21 +25,21 @@ class Employment extends Component {
                         company={Telus.company}
                         dates={Telus.dates}
                         jobDescription={Telus.jobDescription}
-                        targ="job1"
+                        targId={"job1"}
                     />
                     <BootstrapJobLink className="jobLink"
                         jobTitle={TTNI.jobTitle}
                         company={TTNI.company}
                         dates={TTNI.dates}
                         jobDescription={TTNI.jobDescription}
-                        targ="job2"
+                        targId="job2"
                     />
                     <BootstrapJobLink className="jobLink"
                         jobTitle={Apogee.jobTitle}
                         company={Apogee.company}
                         dates={Apogee.dates}
                         jobDescription={Apogee.jobDescription}
-                        targ="job3"
+                        targId="job3"
                     />
                 </div>
             </div>
