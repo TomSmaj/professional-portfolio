@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "./Employment.css";
 import GoogleMap from "./GoogleMap";
-import JobLink from "./JobLink";
 import BootstrapJobLink from "./BootstrapJobLink";
 
-//importing job infor
+//importing job info
 const jobsObj = require('./jobText');
 var Apogee = jobsObj.jobs.Apogee;
 var TTNI = jobsObj.jobs.TTNI;
