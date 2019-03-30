@@ -1,0 +1,13 @@
+.line{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 140%;
+}
+
+.educationBlock{
+    margin: 40px;
+    margin-top: 20px;
+}
