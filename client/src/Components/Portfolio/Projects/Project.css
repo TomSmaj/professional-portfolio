@@ -1,0 +1,15 @@
+.project{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.proj{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    width: 50%;
+}

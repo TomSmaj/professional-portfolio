@@ -6,25 +6,17 @@ class Project extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            layers: this.props.layers,
-            currentLayer: this.props.currentLayer
+            name: this.props.name,
+            pic: this.props.pic,
+            link: this.props.link,
+            github: this.props.github,
         }
-        this.createMenu = this.createMenu.bind(this);
-    }
-
-    createMenu = () => {
-        let layers = [];
-        for(let i = 0; i < this.state.layers; i++){
-            layers.push(<div className="layer"><indLayer currentLayer={this.state.currentLayer} layerNum={i}/></div>);
-        }
-
-        return layers;
     }
 
     render() {
         return (
-            <div className="overlayMenu">
-                {this.createMenu()}
+            <div className="project">
+                <a href={this.state.link}><img className="proj" src={this.state.pic}></img></a>
             </div>
         );
     }
