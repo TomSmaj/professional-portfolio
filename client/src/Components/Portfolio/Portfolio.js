@@ -1,3 +1,4 @@
+import "./Portfolio.css";
 import React, { Component } from "react";
 import NavBar from "../Navbar/Navbar";
 import Parallax from "react-springy-parallax";
@@ -92,10 +93,10 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div>
+      <div className="portfolio">
         <NavBar />
         {/* <OverlayMenu layers={3} currentLayer={1}/> */}
-        <Parallax ref="parallax" pages={3}>
+        <Parallax ref="parallax" pages={8} >
 
           <Parallax.Layer
             offset={0}
@@ -130,6 +131,66 @@ class Portfolio extends Component {
               pic={this.state.projects.spacejam.pic}
               link={this.state.projects.spacejam.link}
               github={this.state.projects.spacejam.github}
+            />
+          </Parallax.Layer>
+
+          <Parallax.Layer
+            offset={3}
+            speed={0.5}
+          >
+            <Project
+              name={this.state.projects.youtubefilter.name}
+              pic={this.state.projects.youtubefilter.pic}
+              link={this.state.projects.youtubefilter.link}
+              github={this.state.projects.youtubefilter.github}
+            />
+          </Parallax.Layer>
+
+          <Parallax.Layer
+            offset={4}
+            speed={0.5}
+          >
+            <Project
+              name={this.state.projects.wordguess.name}
+              pic={this.state.projects.wordguess.pic}
+              link={this.state.projects.wordguess.link}
+              github={this.state.projects.wordguess.github}
+            />
+          </Parallax.Layer>
+
+          <Parallax.Layer
+            offset={5}
+            speed={0.5}
+          >
+            <Project
+              name={this.state.projects.rockpaperscissors.name}
+              pic={this.state.projects.rockpaperscissors.pic}
+              link={this.state.projects.rockpaperscissors.link}
+              github={this.state.projects.rockpaperscissors.github}
+            />
+          </Parallax.Layer>
+
+          <Parallax.Layer
+            offset={6}
+            speed={0.5}
+          >
+            <Project
+              name={this.state.projects.triviagame.name}
+              pic={this.state.projects.triviagame.pic}
+              link={this.state.projects.triviagame.link}
+              github={this.state.projects.triviagame.github}
+            />
+          </Parallax.Layer>
+
+          <Parallax.Layer
+            offset={7}
+            speed={0.5}
+          >
+            <Project
+              name={this.state.projects.geography.name}
+              pic={this.state.projects.geography.pic}
+              link={this.state.projects.geography.link}
+              github={this.state.projects.geography.github}
             />
           </Parallax.Layer>
         </Parallax>
