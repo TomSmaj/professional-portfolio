@@ -1,0 +1,3 @@
+[X] Github image
+[_] Hover over project, box appears with project description and details
+[_] portfolio overlay menu (use https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API to determine what component is visible on screen)
